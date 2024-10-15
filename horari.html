@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <style>
+        body {
+            font-family: Verdana;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse:collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        tr {
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        td {
+            border: 1px solid black;
+            border-collapse:collapse;
+            text-align: center;
+        }
+        .horas {
+           text-align: center;
+           font-size: 20px; 
+           padding: 10px;
+           width: 180px;
+        }
+        th {
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        .LMSGI {
+            background-color: rgb(255, 192, 203);
+        }
+        .BD {
+            background-color: rgb(255, 248, 220);
+        }
+        .PED {
+            background-color: rgb(95, 158, 160);
+        }
+        .SI {
+            background-color: rgb(255, 255, 0);
+        }
+        .TUT {
+            background-color: rgb(100, 149, 237);
+        }
+        .AN {
+            background-color: rgb(255, 215, 0);
+        }
+        .IPOI {
+            background-color: rgb(220, 20, 60);
+        }
+        .DIW {
+            background-color: rgb(255, 127, 80);
+        }
+        #Descans {
+            padding: 15px;
+            font-size: 20px;
+        }
+        .capçaleres {
+            background-color: rgb(132, 254, 132);
+            padding: 30px;
+            font-size: 25px;
+        }
+        #horari {
+            color: rgb(0, 0, 255);
+            text-align: center;
+        }
+        caption {
+            color: rgb(238, 198, 21);
+            font-size: 30px;
+        }
+
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1 id="horari">HORARI</h1>
+<table>
+<caption>Curs 24-25</caption>
+    <tr>
+        <th></th>
+        <th class="capçaleres"><b>dilluns</b></th>
+        <th class="capçaleres"><b>dimarts</b></th>
+        <th class="capçaleres"><b>dimecres</b></th>
+        <th class="capçaleres"><b>dijous</b></th>
+        <th class="capçaleres"><b>divendres</b></th>
+    </tr>
+    <tr>
+        <td class="horas">8:00-9:00</td>
+        <td rowspan="2" class="LMSGI">LMSGI</td>
+        <td rowspan="2" class="BD">BD</td>
+        <td rowspan="2" class="PED">P+ED</td>
+        <td rowspan="2" class="SI">SI</td>
+        <td rowspan="2" class="BD">BD</td>
+    </tr>
+    <tr>
+        <td class="horas">9:00-10:00</td>
+    </tr>
+    <tr>
+        <td class="horas">10:00-11:00</td>
+        <td class="PED">P+ED</td>
+        <td class="TUT">TUT</td>
+        <td class="AN">AN</td>
+        <td class="PED">P+ED</td>
+        <td class="PED">P+ED</td>
+    </tr>
+    <tr>
+        <td id="Descans" colspan="6">Descans</td>
+    </tr>
+    <tr>
+        <td class="horas">11:30-12:30</td>
+        <td class="PED">P+ED</td>
+        <td rowspan="2" class="DIW">DIW</td>
+        <td rowspan="2" class="IPOI">IPO I</td>
+        <td class="PED">P+ED</td>
+        <td class="PED">P+ED</td>
+    </tr>
+    <tr>
+        <td class="horas">12:30-13:30</td>
+        <td class="IPOI">IPO I</td>
+        <td class="AN">AN</td>
+        <td class="SI">SI</td>
+    </tr>
+</table>    
+</body>
+</html>
